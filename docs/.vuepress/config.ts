@@ -5,6 +5,10 @@ export default defineUserConfig({
   title: 'poikcue',
   description: '这里是 poikcue 文档。由 poikcue 翻译的文档、Wiki等作品将发布在这里。',
   theme: defaultTheme({
+    docsRepo: 'https://github.com/poikcue/docs',
+    docsBranch: 'main',
+    docsDir: 'docs',
+    editLinkPattern: ':repo/-/edit/:branch/:path',
     navbar: [
       {
         text: 'Paper',
