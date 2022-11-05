@@ -8,7 +8,6 @@ export default defineUserConfig({
     docsRepo: 'https://github.com/poikcue/docs',
     docsBranch: 'main',
     docsDir: 'docs',
-    editLinkPattern: ':repo/-/edit/:branch/:path',
     navbar: [
       {
         text: 'Paper',
