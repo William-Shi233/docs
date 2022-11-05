@@ -15,7 +15,7 @@ poikcue 对本作品进行翻译工作。
 我对Java了解不深，很多术语是请教Java大佬的。  
 如果有部分专业术语翻译的有误，请帮忙指出，谢谢。  
   
-部分术语我找了很多参考资料，我也不确定部分单词是不是术语，如果有任何错误请麻烦在 [GitHub Issue](https://github.com/poikcue/docs/issues/new) 留言或提交 [PR](https://github.com/poikcue/legacy-docs)。  
+部分术语我找了很多参考资料，我也不确定部分单词是不是术语，如果有任何错误请麻烦在 [GitHub Issue](https://github.com/poikcue/docs/issues/new) 留言或提交 [PR](https://github.com/poikcue/docs)。  
 
 ### 特别感谢
 **Kylepoops** - 部分Java术语建议和翻译。  
