@@ -6,9 +6,9 @@
 由于Paper团队主要使用 [IntelliJ IDEA](https://www.jetbrains.com/idea/) 进行开发，所以本指南将以该IDE作为重点。    
 不过，下文应当也适用于其它IDE，仅需针对性的作一些微小的修改即可。  
 
-Paper团队使用 [Gradle](https://gradle.org/) 作为构建工具，同时也需要Gradle进行构建。    
-在经过修改后，下文的代码在修改后也将适用于其它构建工具，例如Maven。不过本文提供的代码将只适用Gradle。
-
+Paper 团队使用 [Gradle](https://gradle.org/) 作为 Paper 等项目的构建工具，其插件开发工具链使用 Gradle 对项目进行依赖管理。
+在经过修改后，下文代码也将适用于其它构建工具，例如Maven。不过本文所提供的代码将只涉及Gradle。
+<!-- 特别感谢 @William_Shi -->
 阅读[此](https://docs.gradle.org/current/userguide/migrating_from_maven.html)文档学习如何从Maven迁移到Gradle。
 
 ### 创建新工程
