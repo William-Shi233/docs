@@ -25,5 +25,6 @@ java -Xms10G -Xmx10G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMill
 -   `-XX:G1ReservePercent=15`
 -   `-XX:InitiatingHeapOccupancyPercent=20`
 
-> **调整说明**  
-> 如果调整后老年代Collection增加，请恢复到原参数。
+::: warning 调整说明  
+如果调整后老年代Collection增加，请恢复到原参数。
+:::
