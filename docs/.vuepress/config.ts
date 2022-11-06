@@ -8,6 +8,9 @@ export default defineUserConfig({
     docsRepo: 'https://github.com/poikcue/docs',
     docsBranch: 'main',
     docsDir: 'docs',
+    tip: '💡 提示',
+    warning: '⚠ 注意',
+    danger: '🔥 警告',
     navbar: [
       {
         text: 'Paper',
