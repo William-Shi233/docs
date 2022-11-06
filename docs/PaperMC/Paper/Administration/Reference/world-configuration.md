@@ -46,9 +46,8 @@
 
 - **默认值**:
   `[copper_ore, deepslate_copper_ore, gold_ore, deepslate_gold_ore, iron_ore, deepslate_iron_ore, coal_ore, deepslate_coal_ore, lapis_ore, deepslate_lapis_ore, mossy_cobblestone, obsidian, chest, diamond_ore, deepslate_diamond_ore, redstone_ore, deepslate_redstone_ore, clay, emerald_ore, deepslate_emerald_ore, ender_chest]`
-- **描述**: 如果启用反矿物透视模式 `engine-mode: 1` ，哪些方块需要被隐藏掉。它们会被替换为 `石头` (当 y<0 时替换为 `深层` 类型), `下界岩`, 和 `末地岩`，被替换为何种方块将取决于矿物所在维度。忽略任何类型的空气方块。
-
-  如果启用模式 `engine-mode: 2` ，哪些方块在启用反矿物透视的世界中将随机生成。将 `hidden-blocks` 列表中的方块替换为 `replacement-blocks`。TileEntity（例如刷怪笼和箱子）在此列表中无效。
+- **描述**: 如果启用反矿物透视模式 `engine-mode: 1` ，哪些方块需要被隐藏掉。它们会被替换为 `石头` (当 y<0 时替换为 `深层` 类型), `下界岩`, 和 `末地岩`，被替换为何种方块将取决于矿物所在维度。忽略任何类型的空气方块。<br>
+如果启用模式 `engine-mode: 2` ，哪些方块在启用反矿物透视的世界中将随机生成。将 `hidden-blocks` 列表中的方块替换为 `replacement-blocks`。TileEntity（例如刷怪笼和箱子）在此列表中无效。
 
 #### replacement-blocks:
 
@@ -118,8 +117,7 @@
 ### fix-climbing-bypassing-cramming-rule
 
 - **默认值**: `false`
-- **描述**: 攀爬是否不计入实体堆叠限制内。
-
+- **描述**: 攀爬是否不计入实体堆叠限制内（`maxEntityCramming`游戏规则）。如果设定为 `true`，则正在攀爬的实体也将计入实体堆叠限制，并允许其同样受到窒息伤害。
 ### max-entity-collisions
 
 - **默认值**: `8`
