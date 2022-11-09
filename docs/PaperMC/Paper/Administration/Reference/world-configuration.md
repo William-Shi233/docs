@@ -1,6 +1,8 @@
 
 # Paper 针对世界的配置
-
+  
+[[toc]]
+  
 在 `paper-world-defaults.yml` 文件中的每一个配置都可以单独应用于每一个世界。  
 了解如何配置它们，请详见 [配置文件](https://docs.poikcue.com/#/PaperMC/Administration/how-to/configuration)  
 对于全局的配置，请见[Paper 全局配置](https://docs.poikcue.com/#/PaperMC/Administration/Reference/global-configuration)
