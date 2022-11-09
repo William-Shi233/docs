@@ -1,7 +1,9 @@
 
 # Paper 针对世界的配置
   
-[[toc]]
+::: details 目录
+[[toc]]  
+:::
   
 在 `paper-world-defaults.yml` 文件中的每一个配置都可以单独应用于每一个世界。  
 了解如何配置它们，请详见 [配置文件](https://docs.poikcue.com/#/PaperMC/Administration/how-to/configuration)  
