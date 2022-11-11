@@ -13,8 +13,10 @@
 
 ### anti-xray
 
-> 关于推荐使用 `engine-mode` `1` 还是 `2` 可以在  
-> [配置反矿物透视](https://docs.poikcue.com/#/PaperMC/Administration/how-to/anti-xray)中找到。
+::: tip
+关于推荐使用 `engine-mode` `1` 还是 `2` 可以在  
+[配置反矿物透视](https://docs.poikcue.com/#/PaperMC/Administration/how-to/anti-xray)中找到。
+:::
 
 #### enabled
 
@@ -79,7 +81,7 @@
 ### auto-save-interval
 
 - **默认值**: `-1`
-- **描述**: 配置世界在间隔多少Tick后应当保存一次。此值的优先度高于 `bukkit.yml` 文件中 `ticks-per.autosave` 项。若此值设为 `-1`，认使用 `bukkit.yml` 文件中的`ticks-per.autosave` 作为默认值。
+- **描述**: 配置世界在间隔多少Tick后应当保存一次。此值的优先度高于 `bukkit.yml` 文件中 `ticks-per.autosave` 项。若此值设为 `-1`，则使用 `bukkit.yml` 文件中的`ticks-per.autosave` 作为默认值。
 
 ### delay-chunk-unloads-by
 
@@ -733,9 +735,10 @@
 
 ### redstone-implementation
 
-> **注意！**  
-> 此项所有内容都是实验性的。  
-> 如果出现问题，也许会在发布某个补丁的同时永久删除这些内容。
+::: warning 
+此项所有内容都是实验性的。  
+如果出现问题，也许会在发布某个补丁的同时永久删除这些内容。
+:::
 
 - **默认值**: `vanilla`
 - **描述**: 指定服务器的红石实现。以下备选实现方式通过优化功耗计算器、减少方块的数量与形状变化，可以大幅降低由红石引发的延迟。以下是实现列表：
