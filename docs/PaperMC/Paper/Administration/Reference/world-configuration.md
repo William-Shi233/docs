@@ -14,8 +14,8 @@
 ### anti-xray
 
 ::: tip
-关于推荐使用 `engine-mode` `1` 还是 `2` 可以在  
-[配置反矿物透视](https://docs.poikcue.com/#/PaperMC/Administration/how-to/anti-xray)中找到。
+关于推荐使用 `engine-mode` `1` 还是 `2` 可以在    
+[配置反矿物透视](https://docs.poikcue.com/#/PaperMC/Administration/how-to/anti-xray)中找到。  
 :::
 
 #### enabled
@@ -737,7 +737,7 @@
 
 ::: warning 
 此项所有内容都是实验性的。  
-如果出现问题，也许会在发布某个补丁的同时永久删除这些内容。
+如果出现问题，也许会在发布某个补丁的同时永久删除这些内容。  
 :::
 
 - **默认值**: `vanilla`
