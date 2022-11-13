@@ -49,43 +49,6 @@ export default defineUserConfig({
           children: ['/PaperMC/Paper/dev/Event-API/event-listeners.md', '/PaperMC/Paper/dev/Event-API/handler-lists.md', '/PaperMC/Paper/dev/Event-API/custom-events.md'],
         },
       ],
-      '/PaperMC/misc/': [
-        '/PaperMC/Paper/Welcome.md',
-        {
-          text: '开始使用',
-          children: ['/PaperMC/Paper/Administration/getting-start/getting-start.md', '/PaperMC/Paper/Administration/getting-start/adding-plugins.md','/PaperMC/Paper/Administration/getting-start/migration.md'],
-        },
-        {
-          text: '使用指南',
-          children: ['/PaperMC/Paper/Administration/how-to/configuration.md', '/PaperMC/Paper/Administration/how-to/updating.md','/PaperMC/Paper/Administration/how-to/aikars-flags.md','/PaperMC/Paper/Administration/how-to/anti-xray.md'],
-        },
-        {
-          text: '参考',
-          children: ['/PaperMC/Paper/Administration/Reference/global-configuration.md', '/PaperMC/Paper/Administration/Reference/world-configuration.md','/PaperMC/Paper/Administration/Reference/system-properties.md'],
-        },
-        {
-          text: '开发 - 开始使用',
-          children: ['/PaperMC/Paper/dev/getting-start/project-setup.md', '/PaperMC/Paper/dev/getting-start/plugin-yml.md'],
-        },
-        {
-          text: '开发 - 事件API',
-          children: ['/PaperMC/Paper/dev/Event-API/event-listeners.md', '/PaperMC/Paper/dev/Event-API/handler-lists.md', '/PaperMC/Paper/dev/Event-API/custom-events.md'],
-        },
-      ],
-      '/Purpur/': [
-        {
-          text: '配置文件',
-          children: ['/Purpur/Configuration.md'],
-        },
-      ],
-      '/librepremium/': [
-        '/librepremium/welcome.md',
-        '/librepremium/feature.md',
-        '/librepremium/commands.md',
-        '/librepremium/guide.md',
-        '/librepremium/considerations.md',
-        '/librepremium/api.md',
-      ],
     },
     locales: {
       '/': {
