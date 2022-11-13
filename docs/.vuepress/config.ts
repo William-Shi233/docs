@@ -48,10 +48,6 @@ export default defineUserConfig({
           text: '开发 - 事件API',
           children: ['/PaperMC/Paper/dev/Event-API/event-listeners.md', '/PaperMC/Paper/dev/Event-API/handler-lists.md', '/PaperMC/Paper/dev/Event-API/custom-events.md'],
         },
-        {
-          text: '杂项',
-          children: ['/PaperMC/Misc/java-install.md', '/PaperMC/Misc/downloads-api.md', '/PaperMC/Misc/contact.md'],
-        },
       ],
       '/PaperMC/misc/': [
         '/PaperMC/Paper/Welcome.md',
@@ -74,10 +70,6 @@ export default defineUserConfig({
         {
           text: '开发 - 事件API',
           children: ['/PaperMC/Paper/dev/Event-API/event-listeners.md', '/PaperMC/Paper/dev/Event-API/handler-lists.md', '/PaperMC/Paper/dev/Event-API/custom-events.md'],
-        },
-        {
-          text: '杂项',
-          children: ['/PaperMC/Misc/java-install.md', '/PaperMC/Misc/downloads-api.md', '/PaperMC/Misc/contact.md'],
         },
       ],
       '/Purpur/': [
