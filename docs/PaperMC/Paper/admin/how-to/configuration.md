@@ -9,7 +9,6 @@ Paper默认不会为每一个世界都提供自定义配置项，而是将所有
 ### 每个世界的值
 要为专门某个世界设定一个配置的值，需要所在世界目录中找到 `paper-world.yml` 。    
 例如：你想要在一个叫做 `resource` 的世界中禁用 `spawn.keep-spawn-loaded` 值，就需要在 `resource` 文件夹中编辑 `paper-world.yml` 文件并添加以下内容：  
-<!-- 我是真不知道这个文档为什么只支持最基本的Markdown语法 -->
 *此文件位于 resource/paper-world.yml*  
 ```
 _version:  28
@@ -22,7 +21,7 @@ spawn:
 ### 继承
 所有没有明确定义的世界的选项都将使用 `paper-world-defaults.yml` 中的默认配置。  
 也就是说，如果想要修改所有世界的默认配置，无需机械化的复制、粘贴到每个世界相应的文件里。  
-更不用讲想要修改的值从 `paper-world-defaults.yml` 挨个复制过来然后粘贴到所有 `paper-world.yml` 文件中。    
+更不用将想要修改的值从 `paper-world-defaults.yml` 挨个复制过来然后粘贴到所有 `paper-world.yml` 文件中。    
 只需要复制针对某个世界的配置项到对应的 `paper-world.yml` 文件里之后进行精确的修改即可。    
 举个更加复杂的例子：需要在两个不同的世界中分别修改 `spawn-limits` 值和 `keep-spawn-loaded` 值。  
   

@@ -53,14 +53,14 @@
 - **默认值**:
   `[copper_ore, deepslate_copper_ore, gold_ore, deepslate_gold_ore, iron_ore, deepslate_iron_ore, coal_ore, deepslate_coal_ore, lapis_ore, deepslate_lapis_ore, mossy_cobblestone, obsidian, chest, diamond_ore, deepslate_diamond_ore, redstone_ore, deepslate_redstone_ore, clay, emerald_ore, deepslate_emerald_ore, ender_chest]`
 - **描述**: 如果启用反矿物透视模式 `engine-mode: 1` ，哪些方块需要被隐藏掉。它们会被替换为 `石头` (当 y<0 时替换为 `深层` 类型), `下界岩`, 和 `末地岩`，被替换为何种方块将取决于矿物所在维度。忽略任何类型的空气方块。<br>
-如果启用模式 `engine-mode: 2` ，哪些方块在启用反矿物透视的世界中将随机生成。将 `hidden-blocks` 列表中的方块替换为 `replacement-blocks`。TileEntity（例如刷怪笼和箱子）在此列表中无效。
+如果启用模式 `engine-mode: 2` ，哪些方块在启用反矿物透视的世界中将随机生成。将 `hidden-blocks` 列表中的方块替换为 `replacement-blocks`。方块实体（例如刷怪笼和箱子）在此列表中无效。
 
 #### replacement-blocks:
 
 - **默认值**: [stone, oak_planks, deepslate]
 - **描述**: 此列表不会影响使用 `engine-mode: 1` 的世界。修改此列表对于使用模式1的世界无效。
 
-  若使用`engine-mode: 2`，`replacement-blocks` 和 `hidden-blocks` 两个列表中的方块都会随机被 `hidden-blocks` 列表中的方块取代。TileEntity在 `hidden-blocks` 列表中会被忽略掉，但是会加入到 `replacement-blocks` 列表之中。忽略所有类型的空气方块。
+  若使用`engine-mode: 2`，`replacement-blocks` 和 `hidden-blocks` 两个列表中的方块都会随机被 `hidden-blocks` 列表中的方块取代。方块实体在 `hidden-blocks` 列表中会被忽略掉，但可以加入到 `replacement-blocks` 列表之中。忽略所有类型的空气方块。
 
 ### obfuscation
 
@@ -69,12 +69,17 @@
 ##### hide-durability
 
 - **默认值**: `false`
-- **描述**: 服务器是否要隐藏发送给客户端耐久度的相关信息。可能会影响需要依赖于获取耐久度的材质包。
+- **描述**: 服务器是否要发送耐久度的相关信息给其他玩家的客户端。可能会影响需要依赖于获取耐久度的材质包。
 
 ##### hide-itemmeta
 
 - **默认值**: `false`
-- **描述**: 发送给玩家客户端的数据中是否要隐藏不必要的物品信息（例如附魔、物品在潜影盒/背包中 等等），此数据可能会给作弊客户端带来有利条件。可能会影响需要依赖于获取附魔、Lore或物品名称等的材质包。
+- **描述**: 服务器是否要发送（可能会给作弊客户端带来有利条件的）不必要的物品信息给其他玩家的客户端（例如附魔、在潜影盒/背包中的物品等等）。可能会影响需要依赖于获取附魔、Lore或物品名称等的材质包。
+
+##### hide-itemmeta-with-visual-effects
+
+- **默认值**: `false`
+- **描述**: 服务器是否要发送影响物品显示的物品信息（例如磁石指针位置）给其他玩家的客户端。这些信息可能用于作弊客户端为作弊玩家带来有利条件。不管怎样，此项都会影响当其他玩家手持某些物品时的外观。
 
 ## chunks
 

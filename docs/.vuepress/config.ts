@@ -14,11 +14,11 @@ export default defineUserConfig({
     navbar: [
       {
         text: 'Paper',
-        link: '/PaperMC/Paper/Welcome.md',
+        link: '/PaperMC/paper/Welcome.md',
       },
       {
-        text: 'Purpur 配置文件',
-        link: 'https://legacy-docs.poikcue.com/#/Purpur/Configuration',
+        text: 'Purpur',
+        link: '/Purpur/Configuration.md',
       },
       {
         text: 'LibrePremium',
@@ -26,65 +26,33 @@ export default defineUserConfig({
       },
     ],
     sidebar: {
-      '/PaperMC/Paper/': [
-        '/PaperMC/Paper/Welcome.md',
+      '/PaperMC/paper/': [
+        '/PaperMC/paper/Welcome.md',
         {
           text: '开始使用',
-          children: ['/PaperMC/Paper/Administration/getting-start/getting-start.md', '/PaperMC/Paper/Administration/getting-start/adding-plugins.md','/PaperMC/Paper/Administration/getting-start/migration.md'],
+          children: ['/PaperMC/paper/admin/getting-start/getting-start.md', '/PaperMC/paper/admin/getting-start/adding-plugins.md','/PaperMC/paper/admin/getting-start/migration.md'],
         },
         {
           text: '使用指南',
-          children: ['/PaperMC/Paper/Administration/how-to/configuration.md', '/PaperMC/Paper/Administration/how-to/updating.md','/PaperMC/Paper/Administration/how-to/aikars-flags.md','/PaperMC/Paper/Administration/how-to/anti-xray.md'],
+          children: ['/PaperMC/paper/admin/how-to/configuration.md', '/PaperMC/paper/admin/how-to/updating.md','/PaperMC/paper/admin/how-to/aikars-flags.md','/PaperMC/paper/admin/how-to/anti-xray.md'],
         },
         {
           text: '参考',
-          children: ['/PaperMC/Paper/Administration/Reference/global-configuration.md', '/PaperMC/Paper/Administration/Reference/world-configuration.md','/PaperMC/Paper/Administration/Reference/system-properties.md'],
+          children: ['/PaperMC/paper/admin/Reference/global-configuration.md', '/PaperMC/paper/admin/Reference/world-configuration.md','/PaperMC/paper/admin/Reference/system-properties.md'],
         },
         {
           text: '开发 - 开始使用',
-          children: ['/PaperMC/Paper/dev/getting-start/project-setup.md', '/PaperMC/Paper/dev/getting-start/plugin-yml.md'],
+          children: ['/PaperMC/paper/dev/getting-start/project-setup.md', '/PaperMC/paper/dev/getting-start/plugin-yml.md'],
         },
         {
           text: '开发 - 事件API',
-          children: ['/PaperMC/Paper/dev/Event-API/event-listeners.md', '/PaperMC/Paper/dev/Event-API/handler-lists.md', '/PaperMC/Paper/dev/Event-API/custom-events.md'],
-        },
-        {
-          text: '杂项',
-          children: ['/PaperMC/Misc/java-install.md', '/PaperMC/Misc/downloads-api.md', '/PaperMC/Misc/contact.md'],
-        },
-      ],
-      '/PaperMC/misc/': [
-        '/PaperMC/Paper/Welcome.md',
-        {
-          text: '开始使用',
-          children: ['/PaperMC/Paper/Administration/getting-start/getting-start.md', '/PaperMC/Paper/Administration/getting-start/adding-plugins.md','/PaperMC/Paper/Administration/getting-start/migration.md'],
-        },
-        {
-          text: '使用指南',
-          children: ['/PaperMC/Paper/Administration/how-to/configuration.md', '/PaperMC/Paper/Administration/how-to/updating.md','/PaperMC/Paper/Administration/how-to/aikars-flags.md','/PaperMC/Paper/Administration/how-to/anti-xray.md'],
-        },
-        {
-          text: '参考',
-          children: ['/PaperMC/Paper/Administration/Reference/global-configuration.md', '/PaperMC/Paper/Administration/Reference/world-configuration.md','/PaperMC/Paper/Administration/Reference/system-properties.md'],
-        },
-        {
-          text: '开发 - 开始使用',
-          children: ['/PaperMC/Paper/dev/getting-start/project-setup.md', '/PaperMC/Paper/dev/getting-start/plugin-yml.md'],
-        },
-        {
-          text: '开发 - 事件API',
-          children: ['/PaperMC/Paper/dev/Event-API/event-listeners.md', '/PaperMC/Paper/dev/Event-API/handler-lists.md', '/PaperMC/Paper/dev/Event-API/custom-events.md'],
-        },
-        {
-          text: '杂项',
-          children: ['/PaperMC/Misc/java-install.md', '/PaperMC/Misc/downloads-api.md', '/PaperMC/Misc/contact.md'],
+          children: ['/PaperMC/paper/dev/event-api/event-listeners.md', '/PaperMC/paper/dev/event-api/handler-lists.md', '/PaperMC/paper/dev/event-api/custom-events.md'],
         },
       ],
       '/Purpur/': [
-        {
-          text: '配置文件',
-          children: ['/Purpur/Configuration.md'],
-        },
+        '/Purpur/Configuration.md',
+        '/Purpur/Commands.md',
+        '/Purpur/Permissions.md',
       ],
       '/librepremium/': [
         '/librepremium/welcome.md',
