@@ -365,7 +365,7 @@
 #### filter-nbt-data-from-spawn-eggs-and-related
 
 - **默认值**: `true`
-- **描述**: 服务器是否要删除一些从刷怪蛋刷出的生物、Falling Block的实体形式和经常用在创造模式下会滥用的物品。
+- **描述**: 服务器是否要删除部分从刷怪蛋刷出的生物、Falling Block的实体形式和经常用在创造模式下会滥用的物品的NBT。
 - **说明**: 部分冒险模式的地图需要关闭此项，但是不建议在公开的服务器上禁用此选项。
 
 #### iron-golems-can-spawn-in-air
