@@ -2,7 +2,7 @@
 
 本文将介绍由Purpur提供的、位于purpur.yml文件中所有的配置项。    
   
-如果你想要了解关于paper.yml，spigot.yml，server.properties，你可以在它们对应的文档中阅读。  
+如果你想要了解在paper.yml，spigot.yml，server.properties中的配置项的信息，你可以在它们对应的文档中阅读。  
 
 * [Server Configuration (server.properties)](https://minecraft.fandom.com/wiki/Server.properties)
 
