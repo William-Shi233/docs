@@ -27,6 +27,29 @@ export default defineUserConfig({
     ],
     sidebar: {
       '/PaperMC/paper/': [
+        '/PaperMC/Paper/Welcome.md',
+        {
+          text: '开始使用',
+          children: ['/PaperMC/paper/admin/getting-start/getting-start.md', '/PaperMC/paper/admin/getting-start/adding-plugins.md','/PaperMC/paper/admin/getting-start/migration.md'],
+        },
+        {
+          text: '使用指南',
+          children: ['/PaperMC/paper/admin/how-to/configuration.md', '/PaperMC/paper/admin/how-to/updating.md','/PaperMC/paper/admin/how-to/aikars-flags.md','/PaperMC/paper/admin/how-to/anti-xray.md'],
+        },
+        {
+          text: '参考',
+          children: ['/PaperMC/paper/admin/Reference/global-configuration.md', '/PaperMC/paper/admin/Reference/world-configuration.md','/PaperMC/paper/admin/Reference/system-properties.md'],
+        },
+        {
+          text: '开发 - 开始使用',
+          children: ['/PaperMC/paper/dev/getting-start/project-setup.md', '/PaperMC/paper/dev/getting-start/plugin-yml.md'],
+        },
+        {
+          text: '开发 - 事件API',
+          children: ['/PaperMC/paper/dev/event-api/event-listeners.md', '/PaperMC/paper/dev/event-api/handler-lists.md', '/PaperMC/paper/dev/event-api/custom-events.md'],
+        },
+      ],
+      '/PaperMC/paper/': [
         '/PaperMC/paper/Welcome.md',
         {
           text: '开始使用',
