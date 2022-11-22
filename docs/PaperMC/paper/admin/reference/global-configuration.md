@@ -21,11 +21,7 @@ Paper提供的全局配置选项将应用于服务器上的每一个世界，或
 
 - **默认**: `true`
 
-<<<<<<< HEAD:docs/PaperMC/Paper/admin/reference/global-configuration.md
-- **描述**: 是否要根据客户端设定的可视距离设定作为服务器实际发送给客户端的可视距离。只有此项会设定服务器发送给客户端的区块距离的半径，但是不会影响服务器实际加载和计算 Tick。
-=======
-- **描述**: 是否要根据客户端设置的可视距离作为服务器实际发送给客户端的可视距离。此项仅会设定服务器发送给客户端区块的距离，不会影响服务器实际加载和 Tick。
->>>>>>> 2495be5b4e6ea5caf85bddcd824a7aa31b7ee40a:docs/PaperMC/Paper/Administration/Reference/global-configuration.md
+- **描述**: 是否要根据客户端设定的可视距离设定作为服务器实际发送给客户端的可视距离。此项只会设定服务器发送给客户端的区块距离的半径，不会影响服务器实际加载和计算 Tick。
 
 ### enable-frustum-priority
 
