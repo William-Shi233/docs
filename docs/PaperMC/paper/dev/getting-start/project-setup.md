@@ -14,10 +14,10 @@ Paper 团队使用 [Gradle](https://gradle.org/) 作为 Paper 等项目的构建
 ### 创建新项目
 
 打开你的 IDE 然后点击创建新项目的按钮。  
-[![xlD8wq.png](https://s1.ax1x.com/2022/10/05/xlD8wq.png)](https://imgse.com/i/xlD8wq)  
+![xlD8wq.png](https://s1.ax1x.com/2022/10/05/xlD8wq.png)  
 在 Intellij 中，你需要选择你想要创建的项目类型 —— 首先选中 `New Project`，然后选择 `Gradle - Kotlin DSL` 后单击 `Create`。    
 
-[![xlDYkV.png](https://s1.ax1x.com/2022/10/05/xlDYkV.png)](https://imgse.com/i/xlDYkV)    
+![xlDYkV.png](https://s1.ax1x.com/2022/10/05/xlDYkV.png)  
 
 接着，IDE 将自动为你打开可用于管理项目依赖的 `build.gradle.kts` 文件。  
 
@@ -129,7 +129,7 @@ public class ExamplePlugin extends JavaPlugin implements Listener {
 
 ### 创建 `resources` 目录
 
-`resources` 文件夹是在你的插件中存放 `plugin.yml` 的地方。在[这里](https://docs.poikcue.com/#/PaperMC/dev/getting-start/plugin-yml)了解更多关于plugin.yml的信息。  
+`resources` 文件夹是在你的插件中存放 `plugin.yml` 的地方。在[这里](hhttps://docs.poikcue.com/PaperMC/paper/dev/getting-start/plugin-yml.html)了解更多关于plugin.yml的信息。  
 
 ### 最后
 

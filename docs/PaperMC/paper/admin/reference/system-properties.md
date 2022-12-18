@@ -1,15 +1,17 @@
 # Paper System Properties
 
-> **阅读前提醒**  
-> 我不是一名Java开发者。以下的所有涉及Java或者其它术语我都不是很清楚。  
-> 因此我并不是很推荐阅读此页文档。如果你是开发人员，请阅读 [Paper System Properties](https://docs.papermc.io/paper/reference/system-properties)  
-> 以了解。对于完全不确定的翻译，下面有原文。
+::: warning 阅读前提醒
+我不是一名Java开发者。以下的所有涉及Java或者其它术语我都不是很清楚。  
+因此我并不是很推荐阅读此页文档。如果你是开发人员，请阅读 [Paper System Properties](https://docs.papermc.io/paper/reference/system-properties)  
+以了解。对于完全不确定的翻译，下面有原文。  
+:::
 
 这些系统配置可以在启动服务器之前就可以为不同项进行配置。
 
-> **小心！**  
-> 为JVM设定可以更改其工作方式，Paper服务器也不例外。    
-> 如果你不确定某个Flag的作用，**不要轻易使用它**！  
+::: danger 小心！
+为JVM设定 flags 可以更改其工作方式，Paper服务器也不例外。  
+如果你不确定某个Flag的作用，**不要轻易使用它**！  
+:::
 
 ## 工作原理
 
@@ -18,17 +20,18 @@
 ```bash
 java -Dpaper.log-level=FINE -jar paper.jar
 ```
-> **信息**  
-> 部分Paper系统配置项需要带上一个“.”。  
-> 在使用Windows Powershell时，需要拿双引号把它裹上。  
-> 比如 `"-Dpaper.log-level=FINE"`
+::: tip 信息
+部分Paper系统配置项需要带上一个“.”。  
+在使用Windows Powershell时，需要拿双引号把它裹上。  
+比如 `"-Dpaper.log-level=FINE"`
+:::
 
 这里的 `-D` 用于设置环境属性，而系统属性则是带着 `FINE` 值的 `paper.log-level`。  
 要使用，仅需将其加入到启动命令中即可。
 
-> **注意**
-> 当一个系统属性的状态为 `unset` 时，更改为 `true` 就可以用它了。
-
+::: tip 注意
+当一个 system property 的状态为 `unset` 时，更改为 `true` 就可以用它了。
+:::
 
 ## Properties 列表
 

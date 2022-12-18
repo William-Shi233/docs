@@ -6,8 +6,8 @@
 :::
   
 在 `paper-world-defaults.yml` 文件中的每一个配置都可以单独应用于每一个世界。  
-了解如何配置它们，请详见 [配置文件](https://docs.poikcue.com/#/PaperMC/Administration/how-to/configuration)  
-对于全局的配置，请见[Paper 全局配置](https://docs.poikcue.com/#/PaperMC/Administration/Reference/global-configuration)
+了解如何配置它们，请详见 [配置文件](https://docs.poikcue.com/PaperMC/paper/admin/how-to/configuration.html)  
+对于全局的配置，请见[Paper 全局配置](https://docs.poikcue.com/PaperMC/paper/admin/reference/global-configuration.html)
 
 ## anticheat
 
@@ -15,7 +15,7 @@
 
 ::: tip
 关于推荐使用 `engine-mode` `1` 还是 `2` 可以在    
-[配置反矿物透视](https://docs.poikcue.com/#/PaperMC/Administration/how-to/anti-xray)中找到。  
+[配置反矿物透视](https://docs.poikcue.com/PaperMC/paper/admin/how-to/anti-xray.html)中找到。  
 :::
 
 #### enabled
@@ -26,7 +26,7 @@
 #### engine-mode
 
 - **默认值**: `1`
-- **描述**: 请见[配置反矿物透视](https://docs.poikcue.com/#/PaperMC/Administration/how-to/anti-xray)
+- **描述**: 请见[配置反矿物透视](https://docs.poikcue.com/PaperMC/paper/admin/how-to/anti-xray.html)
 
 #### max-block-height
 
