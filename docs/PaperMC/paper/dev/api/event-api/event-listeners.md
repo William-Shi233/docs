@@ -35,9 +35,11 @@ public class ExampleListener implements Listener {
 }
 ```
 
-> 由于插件可以自定义事件，这里无法列出一份包括所有可监听事件的列表。不过在[这里](https://jd.papermc.io/paper/1.19/org/bukkit/event/Event.html)可以了解 Paper 所提供的 `Event` 类的全部子类。  
->   
-> 仅有实现了静态 `getHandlerList` 方法的事件才能被监听。   
+::: tip
+由于插件可以自定义事件，这里无法列出一份包括所有可监听事件的列表。不过在[这里](https://jd.papermc.io/paper/1.19/org/bukkit/event/Event.html)可以了解 Paper 所提供的 `Event` 类的全部子类。  
+   
+仅有实现了静态 `getHandlerList` 方法的事件才能被监听。   
+:::
 
 ## 注册监听器
 
@@ -80,9 +82,10 @@ public class ExampleListener implements Listener {
 实际上优先级的顺序与直觉相反。优先级 **越高**，事件被调用就 **越晚**。  
 例如：你的插件需要对某个事件一锤定音，此后不希望被其他监听器再作覆盖，则需要使用`EventPriority.HIGHEST`。
 
-> **注意**  
-> `MONITOR` 的优先级常常用于获得其他插件对事件的修改结果，而不是亲自修改它。具有此优先级的监听器在所有监听器中排在最后。  
-> 因此这样的监听器可获悉先前插件对事件的修改，例如事件是否被取消（cancellation）和对事件中某些字段的修改（modification）。  
+::: tip
+`MONITOR` 的优先级常常用于获得其他插件对事件的修改结果，而不是亲自修改它。具有此优先级的监听器在所有监听器中排在最后。  
+因此这样的监听器可获悉先前插件对事件的修改，例如事件是否被取消（cancellation）和对事件中某些字段的修改（modification）。  
+:::
 
 ## 取消事件
 
@@ -100,8 +103,10 @@ public class ExampleListener implements Listener {
 }
 ```
 
-> 在你的插件取消某事件之前，请思考一下其它插件是否已经取消或更改了该事件。    
-> 请先检查事件的各个字段再进行修改！    
+::: danger 
+在你的插件取消某事件之前，请思考一下其它插件是否已经取消或更改了该事件。    
+请先检查事件的各个字段再进行修改！    
+:::
   
 上面的例子会取消事件，这意味着玩家无法加入到服务器中。当一个事件被取消后，其他监听器将继续按顺序被调用下去，除非某个监听器在 `@EventHandler` 注解中添加了 `ignoreCancelled = true` 以忽略已取消的事件。    
   

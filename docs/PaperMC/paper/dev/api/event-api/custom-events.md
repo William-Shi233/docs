@@ -11,9 +11,10 @@ HandlerList 用于在事件被触发时，调用所有的监听器。
 
 译注：虽然不能直接监听“活塞事件”，但是可以监听“活塞推出事件”和“活塞收回事件”。同理，尽管无法直接监听“玩家事件”，但是可以监听“玩家加入事件”、“玩家退出事件”等等。 `BlockPistonEvent` 是一个抽象类，自然不会用于直接监听。即使其不是抽象类也不能用于直接监听。
 
-> **关于`getHandlerList`的信息：**  
-> 尽管这一方法不是从 `Event` 类继承来的，你仍需要添加一个静态 `getHandlerList()` 方法并返回一个 `HandlerList`。  
-> 若要使你的事件正常工作， `getHandlers` 和 `getHandlerList` 方法必须同时存在。  
+::: tip getHandlerList
+尽管这一方法不是从 `Event` 类继承来的，你仍需要添加一个静态 `getHandlerList()` 方法并返回一个 `HandlerList`。  
+若要使你的事件正常工作， `getHandlers` 和 `getHandlerList` 方法必须同时存在。  
+:::
 
 ```java
 public class PaperIsCoolEvent extends Event {

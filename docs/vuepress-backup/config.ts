@@ -46,7 +46,6 @@ export default defineUserConfig({
             {
               text: '开始使用',
               children: ['/PaperMC/paper/dev/getting-start/project-setup.md', '/PaperMC/paper/dev/getting-start/plugin-yml.md'],
-              collapsible: true,
             },
             {
               text: 'API',
@@ -54,11 +53,9 @@ export default defineUserConfig({
                 {
                   text: '事件API',
                   children: ['/PaperMC/paper/dev/api/event-api/event-listeners.md', '/PaperMC/paper/dev/api/event-api/custom-events.md', '/PaperMC/paper/dev/api/event-api/handler-lists.md'],
-                  collapsible: true,
                 },
                 '/PaperMC/paper/dev/api/pdc',
               ],
-              collapsible: true,
             },
           ],
         },
