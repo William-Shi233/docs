@@ -1,5 +1,12 @@
 # 永久数据容器（PDC）
 
+::: danger 
+译者不是一名 Java 开发者。对于开发部分的翻译无法保证完全正确。  
+建议您在阅读时参考[原文档](https://docs.papermc.io/paper/dev/pdc)以确保您能够正确理解本文。  
+如果您是 Java 开发者并熟悉 Bukkit 开发，您可以帮助改进此文档。  
+您可以在 [GitHub Issue](https://github.com/poikcue/docs/issues/new) 留言或提交 [PR](https://github.com/poikcue/docs)    
+:::
+
 永久数据容器（Persistent Data Container）（PDC）是存储对象的各种自定义数据的方式；例如物品，实体和方块。  
 以下是 PDC 支持的类的完整列表：
 
