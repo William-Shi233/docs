@@ -30,7 +30,7 @@ java -Dpaper.log-level=FINE -jar paper.jar
 要使用，仅需将其加入到启动命令中即可。
 
 ::: tip 注意
-当一个 system property 的状态为 `unset` 时，更改为 `true` 就可以用它了。
+当一个 system property 用 `unset` 表示时，更改为 `true` 就可以用它了。
 :::
 
 ## Properties 列表
@@ -99,7 +99,7 @@ java -Dpaper.log-level=FINE -jar paper.jar
 #### Paper.ignoreWorldDataVersion:
 
 - **默认值**: `unset`
-- **描述**: 当加载世界时忽略数据版本。不推荐启用此项因为可能会导致出现问题。
+- **描述**: 当加载世界时忽略数据版本。不推荐启用此项，且可能会出现问题。
 
 #### debug.entities:
 
