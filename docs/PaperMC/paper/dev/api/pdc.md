@@ -7,7 +7,7 @@
 您可以在 [GitHub Issue](https://github.com/poikcue/docs/issues/new) 留言或提交 [PR](https://github.com/poikcue/docs)    
 :::
 
-永久数据容器（Persistent Data Container）（PDC）是在存储对象上存储各种自定义数据的方式；例如物品，实体和方块。  
+永久数据容器（Persistent Data Container）（PDC）是在对象上存储各种自定义数据的方式；例如物品，实体和方块。  
 以下是 PDC 支持的类的完整列表：
 
 - [Chunk](#chunk)
