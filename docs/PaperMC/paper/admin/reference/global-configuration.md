@@ -370,13 +370,13 @@ Paper提供的全局配置选项将应用于服务器上的每一个世界，或
 
 - **默认值**: `false`
 
-- **描述**: 当服务器作为 Velocity 子端时，该如何处理玩家的 UUID 和数据。始终保持此项应与 Velocity 设置中的 `online-mode` 一致。
+- **描述**: 当服务器作为 Velocity 子端时，该如何处理玩家的 UUID 和数据。此项应始终保持与 Velocity 设置中的 `online-mode` 一致。
 
 #### secret
 
 - **默认值**: `<空>`
 
-- **描述**: 此服务器和 Velocity 的 Secert 字段。 此值必须与 Velocity 的 `forwarding-secret` 值保持一致。
+- **描述**: 由你的 Velocity 代理与此服务器共享的 secret 字符串。此值必须与 Velocity 的 `forwarding-secret` 值保持一致。
 
 ## scoreboards
 
