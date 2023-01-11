@@ -34,7 +34,7 @@ export default defineUserConfig({
         },
         {
           text: '使用指南',
-          children: ['/PaperMC/paper/admin/how-to/configuration.md', '/PaperMC/paper/admin/how-to/updating.md','/PaperMC/paper/admin/how-to/aikars-flags.md','/PaperMC/paper/admin/how-to/anti-xray.md'],
+          children: ['/PaperMC/paper/admin/how-to/basic-troubleshooting.md','/PaperMC/paper/admin/how-to/configuration.md', '/PaperMC/paper/admin/how-to/updating.md','/PaperMC/paper/admin/how-to/aikars-flags.md','/PaperMC/paper/admin/how-to/anti-xray.md'],
         },
         {
           text: '参考',
