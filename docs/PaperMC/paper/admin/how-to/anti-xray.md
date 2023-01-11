@@ -30,7 +30,7 @@ Yaml需要注意缩进！下面的配置都正确的处理了缩进，请确保�
 
 ### `engine-mode: 1`
 :::: code-group
-::: code-group-item 主世界 
+::: code-group-item 默认世界 
 ```
 请使用以下内容来替代掉 paper-world-defaults.yml 中的 anticheat.anti-xray 键。  
 ```
@@ -72,6 +72,7 @@ anticheat:
     - deepslate
     update-radius: 2
     use-permission: false
+
 ```
 :::
 ::: code-group-item 下界  
@@ -81,11 +82,18 @@ anticheat:
 ```yaml
 anticheat:
   anti-xray:
+    enabled: true
+    engine-mode: 1
     hidden-blocks:
     - ancient_debris
     - nether_gold_ore
     - nether_quartz_ore
+    lava-obscures: false
     max-block-height: 128
+    replacement-blocks: []
+    update-radius: 2
+    use-permission: false
+
 ```
 :::
 ::: code-group-item 末地  
@@ -96,12 +104,13 @@ anticheat:
 anticheat:
   anti-xray:
     enabled: false
+
 ```
 :::
 ::::
 ### `engine-mode: 2`
 :::: code-group
-::: code-group-item 主世界
+::: code-group-item 默认世界
 ```
 请使用以下内容来替代掉 paper-world-defaults.yml 中的 anticheat.anti-xray 键。
 ```  
@@ -156,6 +165,7 @@ anticheat:
     - tuff
     update-radius: 2
     use-permission: false
+
 ```
 :::
 ::: code-group-item 下界 
@@ -165,6 +175,8 @@ anticheat:
 ```yaml
 anticheat:
   anti-xray:
+    enabled: true
+    engine-mode: 2
     hidden-blocks:
     # 在上文查看可能绕过的情况与客户端FPS下降的问题。
     - air
@@ -176,6 +188,7 @@ anticheat:
     - nether_gold_ore
     - nether_quartz_ore
     - polished_blackstone_bricks
+    lava-obscures: false
     max-block-height: 128
     replacement-blocks:
     - basalt
@@ -184,6 +197,9 @@ anticheat:
     - netherrack
     - soul_sand
     - soul_soil
+    update-radius: 2
+    use-permission: false
+
 ```
 :::
 ::: code-group-item 末地  
@@ -194,6 +210,7 @@ anticheat:
 anticheat:
   anti-xray:
     enabled: false
+
 ```
 :::
 ::::
