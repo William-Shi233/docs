@@ -23,7 +23,7 @@
 
 ### 情况 01：Paper Watchdog Thread Dump
 
-如果你的错误信息看起来像这样，**不要盲目地报告给 PaperMC **，就像字面上所说的一样：
+如果你的错误信息看起来像这样，**不要盲目地报告给 PaperMC ** ，就像字面上所说的一样：
 
 ```plaintext
 [00:00:00] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH - git-Paper-366 (MC: 1.19.3) ---
